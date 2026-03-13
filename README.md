@@ -45,6 +45,11 @@ whit-ziji-skills/
 ├─ README.md
 ├─ docs/
 │  └─ skills-spec.md
+├─ templates/
+│  ├─ daily.md
+│  ├─ weekly.md
+│  ├─ monthly.md
+│  └─ travel.md
 └─ skills/
    └─ <skill-id>/
       ├─ skill.yaml
@@ -54,6 +59,31 @@ whit-ziji-skills/
       ├─ tests/
       └─ adapters/
 ```
+
+## 模板使用方式
+
+仓库根目录下的 `templates/` 提供了一组示例模板，当前包括：
+
+- `daily.md`：每日记录模板
+- `weekly.md`：周复盘模板
+- `monthly.md`：月度复盘模板
+- `travel.md`：出行观察模板
+
+这些模板的使用方式很简单：
+
+1. 先选择适合自己的模板作为起点
+2. 在 Obsidian 或其他笔记系统中按自己的目录结构保存
+3. 配合本仓库中的日记类 skills 使用，例如生成日记、整理周记、提取复盘信息
+4. 根据自己的目标、习惯和关注点持续调整字段
+
+例如：
+
+- `daily.md` 可用于每日记录任务、睡眠、反思和学习
+- `weekly.md` 可用于从每日记录汇总出周复盘
+- `monthly.md` 可用于做更高层级的阶段总结
+- `travel.md` 可作为出行或观察类记录的补充模板
+
+需要说明的是，这些模板只是示例，不是唯一标准。每个人的目标、节奏、关注重点都不同，完全可以在此基础上做增删、重排和定制，让模板更符合自己的实际情况。
 
 ## Skill 规范
 
