@@ -1,0 +1,25 @@
+id: daily-priority-picker
+name: 每日优先级筛选
+version: 0.1.0
+category: task-management
+entry: SKILL.md
+description: 每天从 Reminders 未完成待办中，根据北极星目标动态挑选最重要的1件事和3件事。
+tags:
+  - daily-task
+  - priority
+  - reminders
+  - planning
+inputs:
+  - user_north_star
+outputs:
+  - top_1_task
+  - top_3_tasks
+compatibility:
+  openclaw: supported
+triggers:
+  - 今天做什么
+  - 帮我安排今天
+  - 每天任务建议
+dependencies: []
+author: whit-ziji-skills
+license: MIT
